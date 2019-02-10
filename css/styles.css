@@ -52,10 +52,11 @@ code {
   font-weight: bold;
 }
 
-/*li:before {
-  content: "my tip #" counter(li) " ";
+li:before {
+  content: "my tip #"counter(li) " ";
 }
-p {
+
+/*p {
   margin: 0;
   padding: 0.8em;
 }
