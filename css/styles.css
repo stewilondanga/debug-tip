@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,46 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+body {
+  width: 100vw;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: linear-gradient(to bottom, #3c9c8d 0%,#1e5799 100%);
+  color: white;
+}
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: normal;
+  text-align: center;
+  font-size: 26px;
+}
+ul {
+  counter-reset: li;
+}
+a {
+  color: white;
+}
+li {
+  margin-top: 3em;
+  counter-increment: li;
+  list-style: none;
+}
+li > code,
+li:before {
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: bold;
+}
+code {
+  font-weight: bold;
+}
+li:before {
+  content: "my tip #" counter(li) " ";
+}
+p {
+  margin: 0;
+  padding: 0.8em;
 }
 
 .containers {
