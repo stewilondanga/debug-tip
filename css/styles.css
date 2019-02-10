@@ -41,13 +41,14 @@ li {
   list-style: none;
 }
 
-/*li > code,
+li>code,
 li:before {
   font-family: monospace;
   font-size: 18px;
   font-weight: bold;
 }
-code {
+
+/*code {
   font-weight: bold;
 }
 li:before {
