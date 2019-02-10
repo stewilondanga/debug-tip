@@ -7,9 +7,10 @@ var navigate = (function() {
   });
 })();
 
-/*console.clear(); console.log('Start');
+console.clear();
+console.log('Start');
 
-window.addEventListener('click', function () {
+/*window.addEventListener('click', function () {
   console.log('event 1');
 });
 window.addEventListener('click', function () {
