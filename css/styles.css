@@ -31,10 +31,11 @@ ul {
   counter-reset: li;
 }
 
-/*a {
+a {
   color: white;
 }
-li {
+
+/*li {
   margin-top: 3em;
   counter-increment: li;
   list-style: none;
