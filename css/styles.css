@@ -48,10 +48,11 @@ li:before {
   font-weight: bold;
 }
 
-/*code {
+code {
   font-weight: bold;
 }
-li:before {
+
+/*li:before {
   content: "my tip #" counter(li) " ";
 }
 p {
