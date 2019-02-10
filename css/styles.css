@@ -35,12 +35,13 @@ a {
   color: white;
 }
 
-/*li {
+li {
   margin-top: 3em;
   counter-increment: li;
   list-style: none;
 }
-li > code,
+
+/*li > code,
 li:before {
   font-family: monospace;
   font-size: 18px;
