@@ -20,13 +20,14 @@ body {
   height: 1.5em;
 }
 
-/*h1 {
+h1 {
   font-family: 'Luckiest Guy', cursive;
   font-weight: normal;
   text-align: center;
   font-size: 26px;
 }
-ul {
+
+/*ul {
   counter-reset: li;
 }
 a {
