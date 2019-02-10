@@ -21,6 +21,35 @@
         </a>
     </div>
 
+    <div>
+      <h1>My 3 tips for Javascript debugging</h1>
+      <ol>
+        <li>
+          <code>console.clear</code>
+          <p>Sure everyone knows that you can clear the console with <code>console.clear()</code>, but did you know can just use <code>ctrl+L</code> in devtools??? Mind blowing!</p>
+        <p>Also note that in Google Chrome, <code>console.clear()</code> has no effect if the user has selected <i>"Preserve log upon navigation"</i> in the settings.</p>
+          <p>I usually put a <code>console.clear(); console.log('Start') </code>on the first line of a codepen to make sure the hole thing is updating.</p>
+        </li>
+        <li>
+          <code>debugger</code>
+          <p>If you don't know what a breakpoint is, here's an excelent <a href="https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints" target="_blank">link from developers.google<a> about it. Basically you can pause your javascript code at any point with <code>debugger;</code></p>
+            <p>Here are a few other useful ways you can pause JS code beyond <code>debugger</code>:</p>
+            <p><b>DOM</b>:	On the code that changes or removes a specific DOM node, or its children.</p>
+            <p><b>XHR</b>:	When an XHR URL contains a string pattern.</p>
+            <p><b>Events</b>: On the code that runs after an event, such as click, is fired.</p>
+            <p>Click this page with devtools opened and check out the power of <code>debugger</code>!</p>
+        </li>
+        <li>
+          <code>console.dir({log, this},{depth:null,colors:true})</code>
+          <p>This one isn't for devtools, it's for <b>nodejs</b> CMD, CLI or whatever dark screen you are into. </p>
+          <p>This is really useful since some commonly logged objects in nodejs are huge, like the response from a socket or an http request.</p>
+          <p>The probem with logging big objects is that it makes you scroll a lot and most prompts aren't really good at scrolling.</p>
+          <p>But with <code>depth</code> you can control how deep in the object to log with an integer, this way you will no longer have to scroll like crazy.</p>
+          <p>And if your thing supports colors, your screen will become a beautyful rainbow 🌈 !</p>
+        </li>
+      </ol>
+    </div>
+
   <section id="contact">
     <div class="overlay">
       <div class="containers">
